@@ -1,0 +1,22 @@
+@baseUrl = http://sfapi.innovix-solutions.net
+
+###
+GET {{baseUrl}}/api/website/slider HTTP/1.1
+
+###
+GET {{baseUrl}}/api/list/delivery/carrier HTTP/1.1
+
+###
+GET {{baseUrl}}/api/product/categories HTTP/1.1
+
+###
+GET {{baseUrl}}/api/ecommerce/contactus HTTP/1.1
+
+###
+GET {{baseUrl}}/api/terms/condition HTTP/1.1
+
+###
+GET {{baseUrl}}/api/application/meta HTTP/1.1
+
+###
+GET {{baseUrl}}/api/list/promotion HTTP/1.1

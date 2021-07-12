@@ -1,0 +1,67 @@
+.Toastify {
+  .Toastify__toast-container {
+    top: 12em;
+    .Toastify__toast {
+      min-height: 50px;
+      .Toastify__toast-body {
+        div {
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+        }
+        svg {
+          transform: translateY(5px);
+          margin-right: 10px;
+        }
+      }
+
+      .Toastify__progress-bar {
+        opacity: 0 !important;
+      }
+
+      .Toastify__close-button {
+        align-self: initial;
+      }
+    }
+  }
+}
+
+html {
+  &:lang(my) {
+    body,
+    li a,
+    li span,
+    button,
+    .service-bg-color .service-wrap .service-desc .name {
+      font-size: 14px;
+    }
+  }
+}
+
+.slick-slider {
+  &:focus {
+    outline: none;
+  }
+  .slick-track {
+    &:focus {
+      outline: none;
+    }
+    * {
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
+.mt-0 {
+  margin-top: 0 !important;
+}
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+.ml-0 {
+  margin-left: 0 !important;
+}
+.mr-0 {
+  margin-right: 0 !important;
+}
