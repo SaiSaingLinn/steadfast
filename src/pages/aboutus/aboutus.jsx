@@ -32,6 +32,7 @@ const AboutUs = () => {
                   {about_data?.data?.[0]?.aboutus_name}
                 </Text>
                 <Text dangerouslySetInnerHTML={{ __html: about_data?.data?.[0]?.aboutus_description }} />
+                <p>github</p>
               </About>
             </Col>
           </Row>
